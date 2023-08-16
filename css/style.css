@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: ;
+    --cor2: ;
+    --cor3: ;
+    --cor4: ;
+    --cor5: ;
+
+    --text-color1: #000;
+    --text-color2: #FFF;
+    --text-color3: #d2d2d2;
+}
+
+body {
+    background: #FFF;
+}
