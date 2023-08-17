@@ -32,10 +32,6 @@ header #menu {
     max-width: 600px;
 }
 
-/* #pg-sobre h1 {
-  margin: 5px 0;
-} */
-
 /* carousel sobre nos */
 #carousel-sobrenos .cards-wrapper {
     display: flex !important;
@@ -57,8 +53,8 @@ header #menu {
 
 #carousel-sobrenos  .carousel-control {
     background-color: #FFF;
-    width: 6vh;
-    height: 6vh;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
