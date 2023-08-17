@@ -31,3 +31,67 @@ header #menu {
 #campo-cadastrar {
     max-width: 600px;
 }
+
+/* #pg-sobre h1 {
+  margin: 5px 0;
+} */
+
+/* carousel sobre nos */
+#carousel-sobrenos .cards-wrapper {
+    display: flex !important;
+}
+
+#carousel-sobrenos .card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#carousel-sobrenos .card-title {
+  text-align: center;
+}
+
+#carousel-sobrenos .card-body .btn {
+  
+}
+
+#carousel-sobrenos .carousel-inner {
+    padding: 1em;
+}
+
+#carousel-sobrenos  .carousel-control {
+    background-color: #FFF;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#carousel-sobrenos .carousel-control {
+    color: #000 !important;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+  #carousel-sobrenos .carousel-control span {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  @media screen and (min-width: 577px) {
+    #carousel-sobrenos .cards-wrapper {
+      display: flex;
+    }
+
+    #carousel-sobrenos .card {
+      margin: 0 0.5em;
+      width: calc(100% / 2);
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    #carousel-sobrenos .card:not(:first-child) {
+      display: none;
+    }
+  }
