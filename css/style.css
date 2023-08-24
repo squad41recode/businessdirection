@@ -19,7 +19,7 @@
 }
 
 body {
-    background: #FFF;
+    background: var(--text-color2);
 }
 
 /* header */
@@ -52,7 +52,7 @@ header #menu {
 }
 
 #carousel-sobrenos  .carousel-control {
-    background-color: #FFF;
+    background-color: var(--text-color2);
     width: 7vh;
     height: 7vh;
     border-radius: 50%;
@@ -61,8 +61,8 @@ header #menu {
 }
 
 #carousel-sobrenos .carousel-control {
-    color: #000 !important;
-    background: rgb(255, 255, 255);
+    color: var(--text-color1) !important;
+    background: var(--text-color2);
     box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
