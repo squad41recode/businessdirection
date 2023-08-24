@@ -12,6 +12,7 @@
     --cor3: ;
     --cor4: ;
     --cor5: ;
+    --bg-color: #FFF;
 
     --text-color1: #000;
     --text-color2: #FFF;
@@ -19,7 +20,7 @@
 }
 
 body {
-    background: var(--text-color2);
+    background: var(--bg-color);
 }
 
 /* header */
@@ -30,6 +31,23 @@ header #menu {
 
 #campo-cadastrar {
     max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 25px 30px;
+}
+
+#campo-entrar {
+  height: fit-content;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 25px 30px;
+  align-items: center;
+}
+
+.login-img {
+  max-width: 500px;
+  margin: auto;
 }
 
 /* carousel sobre nos */
