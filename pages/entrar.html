@@ -62,19 +62,18 @@
     </header>
     <main>
         <!-- formulário criar conta -->
-        <form class="container-fluid row mx-auto my-5">
-          <div class="col-12 col-md-6 text-center my-md-auto">
-            <div class="d-none d-md-block">
-            <h1>Fazer login</h1>
-            <p>Preencha os campos para entrar na sua conta.</p>
-            <!-- 
-            <p>Já tem um conta? <a href="pages/entrar.html">Entrar</a></p> -->
+        <form class="container-fluid row mx-auto my-4 my-md-5">
+          <div class="col-12 col-md-6 text-center my-5 my-md-auto">
+            <div class=" d-md-block" >
+              <h1>Fazer login</h1>
+              <p>Preencha os campos para entrar na sua conta.</p>
+              <p class="d-md-none">Ainda não tem uma conta? <a href="pages/cadastrar.html">Cadastrar</a></p>
             </div>
-            <img src="/img/astronaut-suit-animate.svg" class="login-img" alt="img">
+            <img src="/img/astronaut-suit-animate.svg" class="login-img d-none d-md-block " alt="img">
           </div>
           <div class=" col-12 col-md-6 row g-3 m-auto my-md-auto" id="campo-entrar">
-            <img class="d-none" src="#" alt="logo">
-            <h1 class="text-center d-md-none">Login</h1>
+            <img class="d-md-none" src="#" alt="logo">
+            <h1 class="text-center d-none d-md-block">Login</h1>
             <div class="">
                 <label for="f-email" class="form-label">Email</label>
                 <input type="email" id="f-email" class="form-control" placeholder="Digite seu email" required>

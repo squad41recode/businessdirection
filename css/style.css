@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -21,33 +23,37 @@
 
 body {
     background: var(--bg-color);
+    font-family: 'Rubik', sans-serif;
 }
 
 /* header */
-
 header #menu {
-    border-bottom:1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
 }
 
-#campo-cadastrar {
-    max-width: 600px;
-    border-radius: 20px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    padding: 25px 30px;
-}
-
+/* entrar e cadastrar */
+#campo-cadastrar,
 #campo-entrar {
   height: fit-content;
   max-width: 600px;
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding: 25px 30px;
-  align-items: center;
 }
 
 .login-img {
   max-width: 500px;
   margin: auto;
+}
+
+#campo-cadastrar .form-control,
+#campo-entrar .form-control {
+  border-radius: 13px;
+  padding: 13px;
+}
+
+@media screen and (max-width: 767px){
+
 }
 
 /* carousel sobre nos */
@@ -84,24 +90,24 @@ header #menu {
     box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-  #carousel-sobrenos .carousel-control span {
-    width: 1.5rem;
-    height: 1.5rem;
+#carousel-sobrenos .carousel-control span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media screen and (min-width: 577px) {
+  #carousel-sobrenos .cards-wrapper {
+    display: flex;
   }
 
-  @media screen and (min-width: 577px) {
-    #carousel-sobrenos .cards-wrapper {
-      display: flex;
-    }
-
-    #carousel-sobrenos .card {
-      margin: 0 0.5em;
-      width: calc(100% / 2);
-    }
+  #carousel-sobrenos .card {
+    margin: 0 0.5em;
+    width: calc(100% / 2);
   }
+}
 
-  @media screen and (max-width: 576px) {
-    #carousel-sobrenos .card:not(:first-child) {
-      display: none;
-    }
+@media screen and (max-width: 576px) {
+  #carousel-sobrenos .card:not(:first-child) {
+    display: none;
   }
+}
