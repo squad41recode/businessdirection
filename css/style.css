@@ -62,9 +62,9 @@ header #menu {
   padding: 10px;
 }
 
-@media screen and (max-width: 767px){
+/* @media screen and (max-width: 767px){
 
-}
+} */
 
 /* carousel sobre nos */
 #carousel-sobrenos .cards-wrapper {
@@ -86,18 +86,14 @@ header #menu {
 }
 
 #carousel-sobrenos  .carousel-control {
+    color: var(--text-color1) !important;
     background-color: var(--text-color2);
     width: 7vh;
     height: 7vh;
     border-radius: 50%;
+    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
     top: 50%;
     transform: translateY(-50%);
-}
-
-#carousel-sobrenos .carousel-control {
-    color: var(--text-color1) !important;
-    background: var(--text-color2);
-    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 #carousel-sobrenos .carousel-control span {
