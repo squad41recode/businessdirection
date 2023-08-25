@@ -15,7 +15,7 @@
 </head>
 <body>
     <header class=" ">
-        <nav class="navbar navbar-expand-md px-md-3" id="menu">
+        <nav class="navbar navbar-expand-md px-md-1" id="menu">
           <div class="container-fluid">
             <!-- logo -->
             <a class="navbar-brand me-auto" href="#" ><img src="img/logo.png" alt="logo" id="logo" >Business Direction</a>
@@ -50,9 +50,9 @@
                     </li>
                 </ul>
                 <!-- btn entrar -->
-                <div class=" my-2 my-md-0">
-                  <p>Já tem uma conta? 
-                    <a href="pages/entrar.html" class="btn btn-primary">Entrar</a>
+                <div class="btn-cad-ent my-2 my-md-0">
+                  <p>Não tem uma conta? 
+                    <a href="cadastrar.html" class="btn btn-primary">Cadastrar</a>
                   </p>
                 </div>
               </div>
@@ -63,43 +63,27 @@
     <main>
         <!-- formulário criar conta -->
         <form class="container-fluid row mx-auto my-4 my-md-5">
-            <div class="col-12 col-md-6 text-center my-4 my-md-auto">
-                <div>
-                  <h1>Criar uma conta</h1>
-                  <p>Preencha os campos para criar uma conta.</p>
-                  <p class="d-md-none">Já tem uma conta? <a href="pages/entrar.html">Entrar</a></p>
-                </div>
-                <img src="/img/astronaut-suit-animate.svg" class="d-none d-md-block login-img" alt="img">
+          <div class="col-12 col-md-6 text-center my-5 my-md-auto">
+            <div class=" d-md-block" >
+              <h1>Fazer login</h1>
+              <p>Preencha os campos para entrar na sua conta.</p>
+              <p class="d-md-none">Ainda não tem uma conta? <a href="pages/cadastrar.html">Cadastrar</a></p>
             </div>
-            <div class=" col-12 col-md-6 row g-3 m-auto my-md-2" id="campo-cadastrar">
-              <img class="d-md-none" src="#" alt="logo">
-              <div class="">
-                  <label for="f-nome" class="form-label">Nome</label>
-                  <input type="text" id="f-nome" class="form-control" placeholder="Insira o seu nome" required>
-              </div>
-              <div class="">
-                  <label for="f-sobrenome" class="form-label">Sobrenome</label>
-                  <input type="text" id="f-sobrenome" class="form-control" placeholder="Insira o seu sobrenome" required>
-              </div>
-              <div class="">
-                  <label for="f-email" class="form-label">Email</label>
-                  <input type="email" id="f-email" class="form-control" placeholder="Insira seu email" required>
-              </div>
-              <div class=" ">
-                  <label for="f-senha" class="form-label">Senha</label>
-                  <input type="text"  id="f-senha" class="form-control" placeholder="Digite uma senha">
-              </div>
-              <div class=" ">
-                  <input type="text"  id="f-senha" class="form-control" placeholder="Confirme a senha" required>
-              </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="f-termos" required>
-                  <label class="form-check-label" id="f-termos">
-                      Aceito os termos e condições
-                  </label>
-              </div>
-              <input type="submit" value="Cadastrar" class="btn btn-primary">
+            <img src="/img/astronaut-suit-animate.svg" class="login-img d-none d-md-block " alt="img">
+          </div>
+          <div class=" col-12 col-md-6 row g-3 m-auto my-md-auto" id="campo-entrar">
+            <img class="d-md-none" src="#" alt="logo">
+            <h1 class="text-center d-none d-md-block">Login</h1>
+            <div class="">
+                <label for="f-email" class="form-label">Email</label>
+                <input type="email" id="f-email" class="form-control" placeholder="Digite seu email" required>
             </div>
+            <div class=" ">
+                <label for="f-senha" class="form-label">Senha</label>
+                <input type="text"  id="f-senha" class="form-control" placeholder="Digite sua senha">
+            </div>
+            <input type="submit" value="Entrar" class="btn btn-primary">
+          </div>
         </form>
     </main>
 </body>
