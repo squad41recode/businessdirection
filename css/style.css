@@ -14,15 +14,16 @@
     --cor3: ;
     --cor4: ;
     --cor5: ;
-    --bg-color: #FFF;
+    --bg-color1: rgb(255, 255, 255);
+    --bg-color2: ;
 
-    --text-color1: #000;
-    --text-color2: #FFF;
-    --text-color3: #d2d2d2;
+    --text-color1: rgb(0, 0, 0);
+    --text-color2: rgba(0, 0, 0, 0.5);
+    --text-color3: ;
 }
 
 body {
-    background: var(--bg-color);
+    background: rgb(255, 255, 255);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -87,7 +88,7 @@ header #menu {
 
 #carousel-sobrenos  .carousel-control {
     color: var(--text-color1) !important;
-    background-color: var(--text-color2);
+    background-color: var(--bg-color1);
     width: 7vh;
     height: 7vh;
     border-radius: 50%;
