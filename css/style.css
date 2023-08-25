@@ -9,7 +9,7 @@
 }
 
 :root {
-    --cor1: ;
+    --cor1: blue;
     --cor2: ;
     --cor3: ;
     --cor4: ;
@@ -29,11 +29,33 @@ body {
 
 /* header */
 header #menu {
+  /* menu fixo */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
 }
 
 #menu .btn-cad-ent {
   font-size: 10pt;
+}
+
+/* main */
+main {
+  /* margem pro menu fixo */
+  margin-top: 120px;
+}
+
+main a {
+  text-decoration: none;
+  color: var(--text-color2);
+}
+
+main a:hover {
+  text-decoration: none;
+  color: var(--cor1);
 }
 
 /* entrar e cadastrar */
