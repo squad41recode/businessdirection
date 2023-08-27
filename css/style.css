@@ -16,7 +16,8 @@
     --cor4: ;
     --cor5: ;
     --bg-color1: rgb(255, 255, 255);
-    --bg-color2: rgb(60, 60, 60);
+    --bg-color2: rgb(240, 240, 240);
+    --bg-color3: rgb(60, 60, 60);
 
     --text-color1: rgb(0, 0, 0);
     --text-color2: rgba(0, 0, 0, 0.5);
@@ -24,15 +25,9 @@
 }
 
 body {
+  /* position: relative; */
   background: rgb(255, 255, 255);
-  /* font-family: 'Rubik', sans-serif; */
-  /* font-family: 'League Spartan', sans-serif; */
-  font-family: 'Tenor Sans', sans-serif;
-}
-
-body p {
-  /* font-family: 'League Spartan', sans-serif; 
-  font-family: 'Tenor Sans', sans-serif;*/
+  font-family: 'Rubik', sans-serif;
 }
 
 /* header */
@@ -42,19 +37,33 @@ header #menu {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 10vh;
 
   background: var(--bg-color1);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
 }
 
-#menu .btn-cad-ent {
+#menu p {
   font-size: 10pt;
+  margin: 0;
+}
+
+#menu .nav-item {
+  /* margin: auto 0 !important;*/
+}
+
+#menu .nav-item .active {
+  font-weight: bold;
+  color: var(--cor1) !important;
+  /* border-bottom: 3px solid var(--cor1); */
 }
 
 /* main */
 main {
   /* margem pro menu fixo */
-  margin-top: 120px;
+  margin-top: 15vh;
+
+  margin-bottom: 10vh;
 }
 
 main a {
@@ -64,7 +73,7 @@ main a {
 
 main a:hover {
   text-decoration: none;
-  color: var(--cor1);
+  color: var(--text-color1);
 }
 
 /* entrar e cadastrar */
@@ -72,9 +81,9 @@ main a:hover {
 #campo-entrar {
   height: fit-content;
   max-width: 600px;
-  border-radius: 20px;
+  border-radius: 1.5em;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  padding: 25px 30px;
+  padding: 2em;
 }
 
 .login-img {
@@ -84,14 +93,14 @@ main a:hover {
 
 #campo-cadastrar .form-control,
 #campo-entrar .form-control{
-  border-radius: 13px;
-  padding: 13px;
+  border-radius: 1em;
+  padding: .8em;
 }
 
 #campo-cadastrar .btn,
 #campo-entrar .btn {
-  border-radius: 13px;
-  padding: 10px;
+  border-radius: 1em;
+  padding: .6em;
 }
 
 /* @media screen and (max-width: 767px){
@@ -100,13 +109,13 @@ main a:hover {
 
 /* carousel sobre nos */
 #carousel-sobrenos .cards-wrapper {
-    display: flex !important;
+  display: flex !important;
 }
 
 #carousel-sobrenos .card {
-    border: none;
-    border-radius: 5px;
-    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 #carousel-sobrenos .card-title {
@@ -114,18 +123,18 @@ main a:hover {
 }
 
 #carousel-sobrenos .carousel-inner {
-    padding: 1em;
+  padding: 1em;
 }
 
 #carousel-sobrenos  .carousel-control {
-    color: var(--text-color1) !important;
-    background-color: var(--bg-color1);
-    width: 7vh;
-    height: 7vh;
-    border-radius: 50%;
-    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
-    top: 50%;
-    transform: translateY(-50%);
+  color: var(--text-color1) !important;
+  background-color: var(--bg-color1);
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #carousel-sobrenos .carousel-control span {
@@ -150,20 +159,23 @@ main a:hover {
   }
 }
 
-/* footer {
-  color: var(--text-color3);
+/* footer */
+footer {
+  /* color: var(--text-color3); */
   background: var(--bg-color2);
+  padding: 35px 0;
 }
 
-footer .nav-item a {
-  color: var(--text-color3) !important;
+footer .nav-item a:hover {
+  color: var(--text-color1) !important;
 }
 
 footer i {
-  color: var(--text-color3);
+  /* color: var(--text-color3); */
   font-size: 16pt;
-  padding: 3px;
+  margin: .2em;
 }
 
 footer i:hover {
-} */
+
+}
