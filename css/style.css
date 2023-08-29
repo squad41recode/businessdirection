@@ -4,31 +4,35 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&family=Tenor+Sans&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --cor1: blue;
-    --cor2: ;
-    --cor3: ;
-    --cor4: ;
-    --cor5: ;
-    --bg-color1: rgb(255, 255, 255);
-    --bg-color2: rgb(240, 240, 240);
-    --bg-color3: rgb(60, 60, 60);
+  --cor1: blue;
+  --cor2: ;
+  --cor3: ;
+  --cor4: ;
+  --cor5: ;
+  --bg-color1: rgb(255, 255, 255);
+  --bg-color2: rgb(240, 240, 240);
+  --bg-color3: rgb(60, 60, 60);
 
-    --text-color1: rgb(0, 0, 0);
-    --text-color2: rgba(0, 0, 0, 0.5);
-    --text-color3: rgb(255, 255, 255);
+  --text-color1: rgb(0, 0, 0);
+  --text-color2: rgba(0, 0, 0, 0.5);
+  --text-color3: rgb(255, 255, 255);
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
-  /* position: relative; */
   background: rgb(255, 255, 255);
   font-family: 'Rubik', sans-serif;
 }
+
 
 /* header */
 header #menu {
@@ -48,15 +52,15 @@ header #menu {
   margin: 0;
 }
 
-#menu .nav-item {
-  /* margin: auto 0 !important;*/
-}
+/* #menu .nav-item {
+} */
 
 #menu .nav-item .active {
   font-weight: bold;
   color: var(--cor1) !important;
   /* border-bottom: 3px solid var(--cor1); */
 }
+
 
 /* main */
 main {
@@ -75,6 +79,7 @@ main a:hover {
   text-decoration: none;
   color: var(--text-color1);
 }
+
 
 /* entrar e cadastrar */
 #campo-cadastrar,
@@ -106,6 +111,29 @@ main a:hover {
 /* @media screen and (max-width: 767px){
 
 } */
+
+/* pg sobre nos */
+.pg-sobre article {
+  /* max-width: 1150px; */
+  margin: 0em auto;
+}
+
+.pg-sobre h2 {
+  text-align: center;
+}
+
+.pg-sobre p {
+  text-indent: 1em;
+}
+
+.img-sn {
+  margin: 1.5em 0;
+}
+
+.img-sn img {
+  max-height: 25em;
+  max-width: 25em;
+}
 
 /* carousel sobre nos */
 #carousel-sobrenos .cards-wrapper {
@@ -142,7 +170,7 @@ main a:hover {
   height: 1.5rem;
 }
 
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 767px) {
   #carousel-sobrenos .cards-wrapper {
     display: flex;
   }
@@ -153,11 +181,12 @@ main a:hover {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #carousel-sobrenos .card:not(:first-child) {
     display: none;
   }
 }
+
 
 /* footer */
 footer {
@@ -176,6 +205,6 @@ footer i {
   margin: .2em;
 }
 
-footer i:hover {
+/* footer i:hover {
 
-}
+} */
