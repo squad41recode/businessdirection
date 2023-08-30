@@ -10,11 +10,9 @@
 }
 
 :root {
-  --cor1: blue;
+  --cor1: rgb(125, 183, 250);
   --cor2: ;
   --cor3: ;
-  --cor4: ;
-  --cor5: ;
   --bg-color1: rgb(255, 255, 255);
   --bg-color2: rgb(240, 240, 240);
   --bg-color3: rgb(60, 60, 60);
@@ -26,6 +24,7 @@
 
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -37,11 +36,11 @@ body {
 /* header */
 header #menu {
   /* menu fixo */
-  overflow: hidden;
+  /* overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 10vh;
+  height: 10vh; */
 
   background: var(--bg-color1);
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
@@ -152,6 +151,7 @@ main a:hover {
 
 #carousel-sobrenos .card {
   background: var(--bg-color1);
+  width: 100%;
   border: none;
   border-radius: 5px;
   box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
@@ -163,7 +163,7 @@ main a:hover {
   max-width: 15em;
   border-radius: 50%;
   border: 7px solid transparent;
-  outline: 5px solid var(--bg-color2);
+  outline: 5px solid var(--cor1);
   margin: auto;
 } 
 
@@ -175,7 +175,7 @@ main a:hover {
   padding: 1em;
 }
 
-#carousel-sobrenos  .carousel-control {
+#carousel-sobrenos .carousel-control {
   color: var(--text-color1) !important;
   background-color: var(--bg-color1);
   width: 7vh;
@@ -207,6 +207,38 @@ main a:hover {
     display: none;
   }
 }
+
+/* cards serviços */
+.cards-services {
+  margin: 3em 0;
+} 
+.cards-services .cards {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards-services .card {
+  background: var(--bg-color2);
+  min-width: 250px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: .5em;
+  margin: .5em auto;
+}
+
+/* @media screen and (min-width: 767px) {
+  .cards-services .cards {
+    display: flex;
+  }
+
+  .cards-services .card {
+    margin: 0 1em;
+    width: calc(100% / 2);
+  }
+} */
 
 
 /* footer */
