@@ -12,12 +12,17 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Sobre Nós - Business Direction</title>
+    <style>
+      body {
+        background-color: ;
+      }
+    </style>
 </head>
 <body>
-    <header class=" fixed-top">
+    <header class=" ">
         <nav class="navbar navbar-expand-md px-md-1" id="menu">
           <div class="container-fluid ">
-            <!-- logo -->
+            <!-- logo fixed-top-->
             <a class="navbar-brand me-auto" href="#" >
               <img src="/img/logo-fundos-brancos.png" alt="logo" class="logo" ></a>
             <!-- btn menu telas pequenas -->
@@ -180,31 +185,32 @@
             </button>
             </div>
     </article>
-    <section class="cards-services">
-        <div class="cards  ">
+    <section class="container-fluid cards-services text-center">
+        <h2>Nossos serviços</h2>
+        <div class="cards mt-3 ">
+          <div class="card ">
+              <img src="/img/sobrenos/services/Company-amico.svg" class="card-img" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Serviço</h5>
+                  <p class="card-text">Breve descrição</p>
+              </div>
+          </div>
             <div class="card ">
-                <img src="/img/sobrenos/" class="card-img" alt="...">
+                <img src="/img/sobrenos/services/Webinar-amico.svg" class="card-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Serviço</h5>
                     <p class="card-text">Breve descrição</p>
                 </div>
             </div>
             <div class="card  ">
-                <img src="/img/sobrenos/" class="card-img" alt="...">
+                <img src="/img/sobrenos/services/Investment-data-amico.svg" class="card-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Serviço</h5>
                     <p class="card-text">Breve descrição</p>
                 </div>
             </div>
             <div class="card ">
-                <img src="/img/sobrenos/" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Serviço</h5>
-                    <p class="card-text">Breve descrição</p>
-                </div>
-            </div>
-            <div class="card ">
-                <img src="/img/sobrenos/" class="card-img" alt="...">
+                <img src="/img/sobrenos/services/office-amico.svg" class="card-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Serviço</h5>
                     <p class="card-text">Breve descrição</p>
@@ -227,6 +233,80 @@
         </div>
     </section>
     </main>
+    <footer class="container-fluid">
+        <!--  justify-content-md-between -->
+        <div class="row">
+          <!-- d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top -->
+          <div class=" col-12 col-md-6 mb-3">
+            <img src="/img/logo-fundos-brancos.png" alt="logo" class="logo">
+            <p> </p>
+          </div>
+    
+          <div class="col-12 col-md-6 mx-auto mb-3">
+            <h5>Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Ferramentas</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="/pages/sobre.html" class="nav-link p-0 text-body-secondary">Sobre Nós</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Contato</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Política de Privacidade</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-3  border-top align-items-center">
+          <p>&copy; 2023 Business Direction. Todos os direitos reservados.</p>
+          <ul class="social-media list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#">
+              <i class="bi bi-twitter"></i>
+            </a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#">
+              <i class="bi bi-instagram"></i>
+            </a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#">
+              <i class="bi bi-facebook"></i>
+            </a></li>
+          </ul>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-center py-3  align-items-center">
+          <p>
+            Desenvolvido com
+            <i class="bi bi-heart-fill" style="color: red;"></i> 
+            por:
+          </p>
+          <ul class=" list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="https://github.com/bia-berenguel" target="_blank" class="nav-link p-0 text-body-secondary">Beatriz
+              </a>
+            </li>
+            <li class="ms-3 ">
+              <a href="https://github.com/CamomilaCosta" target="_blank" class="nav-link p-0 text-body-secondary">Camila</a>
+            </li>
+            <li class="ms-3">
+              <a href="https://github.com/svhellen" target="_blank" class="nav-link p-0 text-body-secondary">Cristiele</a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="nav-link p-0 text-body-secondary"> </a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="nav-link p-0 text-body-secondary"> </a>
+            </li>
+          </ul>
+        </div>
+    
+        <a href="https://storyset.com/" target="_blank">Illustrations by Storyset</a>
+      </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
