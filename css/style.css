@@ -145,7 +145,7 @@ main a:hover {
 /* carousel sobre nos */
 #team {
   background: var(--bg-color2);
-  padding: 1em;
+  padding: 1.5em;
 }
 
 #carousel-sobrenos .cards-wrapper {
@@ -164,6 +164,8 @@ main a:hover {
   max-height: 15em;
   max-width: 15em;
   border-radius: 50%;
+  border: 7px solid transparent;
+  outline: 5px solid var(--bg-color2);
   margin: auto;
 } 
 
