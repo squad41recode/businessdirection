@@ -121,12 +121,9 @@ main a:hover {
 
 /* pg sobre nos */
 .pg-sobre article {
-  /* max-width: 1150px; */
-  margin: 0em auto;
-}
-
-.pg-sobre h2 {
+  /* max-width: 1150px;*/
   text-align: center;
+  margin: auto;
 }
 
 .pg-sobre p {
@@ -139,7 +136,8 @@ main a:hover {
 
 .img-sn img {
   max-height: 25em;
-  max-width: 25em;
+  /* ///////////////////// */
+  max-width: 90% !important;
 }
 
 /* carousel sobre nos */
