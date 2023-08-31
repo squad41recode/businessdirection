@@ -12,6 +12,7 @@
 :root {
   --cor1: rgb(125, 183, 250);
   --cor2: rgb(64, 123, 255);
+  --cor2-1: rgb(0, 123, 255);
   --cor3: rgb(11, 94, 215);
 
   --bg-color1: rgb(255, 255, 255);
@@ -19,8 +20,8 @@
   --bg-color3: rgb(60, 60, 60);
 
   --text-color1: rgb(0, 0, 0);
-  --text-color2: rgba(0, 0, 0, 0.5);
-  --text-color3: rgb(255, 255, 255);
+  --text-color2: rgba(0, 0, 0, 0.65);
+  --text-color3: rgba(0, 0, 0, 0.3);
 }
 
 html, body {
@@ -152,9 +153,6 @@ main a:hover {
   padding: .6em;
 }
 
-/* @media screen and (max-width: 767px){
-
-} */
 
 /* pg sobre nos */
 .pg-sobre article {
@@ -291,16 +289,22 @@ footer {
   padding: 35px 0;
 }
 
+footer .footer-logo p {
+ color: var(--text-color2);
+ width: 15em;
+ margin: 1em auto;
+}
+
 footer .logo {
   max-height: 3.5em;
 }
 
-footer a {
-  color: var(--text-color1) !important;
+footer a, footer i {
+  color: var(--text-color2) !important;
   text-decoration: none;
 }
 
-footer a:hover {
+footer a:hover, footer i:hover {
   color: var(--text-color1) !important;
   text-decoration: underline;
 }
@@ -308,6 +312,11 @@ footer a:hover {
 footer i, footer i:hover {
   font-size: 1.2em;
   margin: .2em;
+}
+
+footer .bi-heart-fill,
+footer .bi-heart-fill:hover {
+  color: red !important;
 }
 
 
