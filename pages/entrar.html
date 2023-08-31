@@ -47,7 +47,7 @@
                   <a class="nav-link" href="sobre.html">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
+                  <a class="nav-link" href="contato.html">Contato</a>
                 </li>
             </ul>
             <!-- btn entrar -->
@@ -63,16 +63,23 @@
   <main>
     <!-- formulário criar conta -->
     <form class="container-fluid row mx-auto my-4 my-md-5">
-      <div class="col-12 col-md-6 text-center my-4">
-        <div class=" d-md-block" >
+      <!-- imagem lateral tela maior -->
+      <div class="col-12 col-md-6 text-center my-auto">
+        <div class="d-none d-md-block" >
           <h1>Fazer login</h1>
           <p>Preencha os campos para entrar na sua conta.</p>
-          <p class="d-md-none">Ainda não tem uma conta? <a href="pages/cadastrar.html">Cadastrar</a></p>
         </div>
         <img src="/img/astronaut-suit-animate.svg" class="login-img d-none d-md-block " alt="img">
       </div>
+      <!-- formulario -->
       <div class=" col-12 col-md-6 row g-3 m-auto my-md-auto" id="campo-entrar">
-        <img class="d-md-none" src="/img/logo-fundos-brancos-sm.png" alt="logo" id="logo-sm">
+        <!-- imagem e texto tela menor -->
+        <div class="d-md-none text-center mx-auto">
+          <img src="/img/astronaut-suit-animate.svg" alt="logo" id="logo-sm">
+          <h1>Fazer login</h1>
+          <p>Preencha os campos abaixo para entrar na sua conta.</p>
+        </div>
+
         <h1 class="text-center d-none d-md-block">Login</h1>
         <div class="">
             <label for="f-email" class="form-label">Email</label>
@@ -86,6 +93,7 @@
         <input type="submit" value="Entrar" class="btn btn-primary">
       </div>
     </form>
+    <p class="text-center">Ainda não tem uma conta? <a href="cadastrar.html">Cadastrar</a></p>
   </main>
   <footer class="container-fluid">
     <!--  justify-content-md-between -->
@@ -100,7 +108,7 @@
         <h5>Links</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            <a href="/index.html" class="nav-link p-0 text-body-secondary">Home</a>
           </li>
           <li class="nav-item mb-2">
             <a href="#" class="nav-link p-0 text-body-secondary">Ferramentas</a>
@@ -109,7 +117,7 @@
             <a href="/pages/sobre.html" class="nav-link p-0 text-body-secondary">Sobre Nós</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Contato</a>
+            <a href="contato.html" class="nav-link p-0 text-body-secondary">Contato</a>
           </li>
           <li class="nav-item mb-2">
             <a href="#" class="nav-link p-0 text-body-secondary">Política de Privacidade</a>
