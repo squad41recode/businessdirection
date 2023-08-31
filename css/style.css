@@ -144,8 +144,6 @@ main a:hover {
 #team {
   background: var(--bg-color2);
   padding: 1.5em;
-
-  margin-left: 0 !important;
 }
 
 #carousel-sobrenos .cards-wrapper {
