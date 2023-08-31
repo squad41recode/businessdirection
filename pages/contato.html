@@ -60,26 +60,32 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="mt-0 m-md-auto">
     <!-- formulário criar conta -->
-    <form class="container-fluid row mx-auto my-4 my-md-5">
-      <div class="col-12 col-md-6 text-center my-4">
-        <div class=" d-md-block" >
+    <form class="container-fluid row mx-auto mb-4 mt-1 my-md-5">
+      <div class="col-12 col-md-6 text-center my-md-4">
+        <div class="d-none d-md-block" >
           <h1>Fale Conosco</h1>
           <p>Preencha os campos para nos enviar a sua mensagem.</p>
         </div>
         <img src="/img/mobile-marketing-animate.svg" class="login-img d-none d-md-block " alt="img">
       </div>
       <div class=" col-12 col-md-6 row g-3 mx-auto my-4" id="campo-contato">
-        <img class="d-md-none" src="/img/logo-fundos-brancos-sm.png" alt="logo" id="logo-sm">
+
+        <div class="d-md-none text-center mx-auto">
+            <img src="/img/mobile-marketing-animate.svg" alt="logo" id="logo-sm">
+            <h1>Fale Conosco</h1>
+            <p>Preencha os campos abaixo para nos enviar a sua mensagem.</p>
+        </div>
+
         <div class="">
             <label for="f-nome" class="form-label">Nome</label>
             <input type="text" id="f-nome" class="form-control" placeholder="Insira o seu nome" required>
         </div>
-        <div class="">
+        <!-- <div class="">
             <label for="f-sobrenome" class="form-label">Sobrenome</label>
             <input type="text" id="f-sobrenome" class="form-control" placeholder="Insira o seu sobrenome" required>
-        </div>
+        </div> -->
         <div class="">
             <label for="f-email" class="form-label">Email</label>
             <input type="email" id="f-email" class="form-control" placeholder="Insira seu email" required>
@@ -109,7 +115,7 @@
         <h5>Links</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            <a href="/index.html" class="nav-link p-0 text-body-secondary">Home</a>
           </li>
           <li class="nav-item mb-2">
             <a href="#" class="nav-link p-0 text-body-secondary">Ferramentas</a>
@@ -118,7 +124,7 @@
             <a href="/pages/sobre.html" class="nav-link p-0 text-body-secondary">Sobre Nós</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Contato</a>
+            <a href="contato.html" class="nav-link p-0 text-body-secondary">Contato</a>
           </li>
           <li class="nav-item mb-2">
             <a href="#" class="nav-link p-0 text-body-secondary">Política de Privacidade</a>
