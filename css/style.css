@@ -90,7 +90,8 @@ main a:hover {
 
 /* entrar e cadastrar */
 #campo-cadastrar,
-#campo-entrar {
+#campo-entrar,
+#campo-contato {
   height: fit-content;
   max-width: 600px;
   border-radius: 1.5em;
@@ -104,13 +105,15 @@ main a:hover {
 }
 
 #campo-cadastrar .form-control,
-#campo-entrar .form-control{
+#campo-entrar .form-control,
+#campo-contato .form-control {
   border-radius: 1em;
   padding: .8em;
 }
 
 #campo-cadastrar .btn,
-#campo-entrar .btn {
+#campo-entrar .btn,
+#campo-contato .btn {
   border-radius: 1em;
   padding: .6em;
 }
