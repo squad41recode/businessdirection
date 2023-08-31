@@ -10,11 +10,12 @@
 }
 
 :root {
-  --cor1: #7db7fa;
-  --cor2: ;
-  --cor3: ;
+  --cor1: rgb(125, 183, 250);
+  --cor2: rgb(64, 123, 255);
+  --cor3: rgb(11, 94, 215);
+
   --bg-color1: rgb(255, 255, 255);
-  --bg-color2: rgb(240, 240, 240);
+  --bg-color2: rgb(245, 245, 245);
   --bg-color3: rgb(60, 60, 60);
 
   --text-color1: rgb(0, 0, 0);
@@ -66,7 +67,38 @@ header #menu {
 }
 
 #subheader {
+  background: var(--bg-color2);
+  margin-top: -1em;
+  margin-bottom: 0;
 }
+
+#subheader h1 {
+  padding: 1em;
+  padding-bottom: 0;
+  margin: 0 !important;
+}
+
+.custom-shape-top {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 0;
+}
+
+.custom-shape-top svg {
+  /* position: relative; */
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-top .shape-fill {
+  fill: var(--bg-color2);
+}
+
 
 /* main */
 main {
@@ -238,6 +270,10 @@ main a:hover {
   box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.3);
   padding: .8em;
   margin: .8em auto;
+}
+
+.cards-services .card:hover {
+  background-color: var(--bg-color2);
 }
 
 .cards-services .card img {
