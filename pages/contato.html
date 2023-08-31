@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Entrar - Business Direction</title>
+    <title>Contato - Business Direction</title>
 </head>
 <body>
   <header class=" ">
@@ -38,7 +38,7 @@
             <ul class="navbar-nav justify-content-md-center align-items-md-center flex-grow-1">
             <!-- navbar links -->
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                  <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Ferramentas</a>
@@ -47,13 +47,13 @@
                   <a class="nav-link" href="sobre.html">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contato.html">Contato</a>
+                  <a class="nav-link active" href="#" aria-current="page">Contato</a>
                 </li>
             </ul>
             <!-- btn entrar -->
             <div class="btn-cad-ent my-3 my-md-0">
-              <p>Não tem uma conta?</p> 
-              <a href="cadastrar.html" class="btn btn-primary">Cadastrar</a>
+                <a href="entrar.html" class="btn btn-light">Entrar</a>
+                <a href="cadastrar.html" class="btn btn-primary">Cadastrar</a>
             </div>
           </div>
         </div>
@@ -62,38 +62,45 @@
   </header>
   <main>
     <!-- formulário criar conta -->
-    <form class="container-fluid row mx-auto my-4 my-md-5">
-      <!-- imagem lateral tela maior -->
+    <form class="container-fluid row mx-auto my-md-5">
       <div class="col-12 col-md-6 text-center my-auto">
         <div class="d-none d-md-block" >
-          <h1>Fazer login</h1>
-          <p>Preencha os campos para entrar na sua conta.</p>
+          <h1>Fale Conosco</h1>
+          <p>Preencha os campos para nos enviar a sua mensagem.</p>
         </div>
-        <img src="/img/astronaut-suit-animate.svg" class="login-img d-none d-md-block " alt="img">
+        <img src="/img/mobile-marketing-animate.svg" class="login-img d-none d-md-block " alt="img">
       </div>
-      <!-- formulario -->
-      <div class=" col-12 col-md-6 row g-3 m-auto my-md-auto" id="campo-entrar">
-        <!-- imagem e texto tela menor -->
+      <div class=" col-12 col-md-6 row g-3 mx-auto my-auto" id="campo-contato">
+
         <div class="d-md-none text-center mx-auto">
-          <img src="/img/astronaut-suit-animate.svg" alt="logo" id="logo-sm">
-          <h1>Fazer login</h1>
-          <p>Preencha os campos abaixo para entrar na sua conta.</p>
+            <img src="/img/mobile-marketing-animate.svg" alt="logo" id="logo-sm">
+            <h1>Fale Conosco</h1>
+            <p>Preencha os campos abaixo para nos enviar a sua mensagem.</p>
         </div>
 
-        <h1 class="text-center d-none d-md-block">Login</h1>
+        <div class="">
+            <label for="f-nome" class="form-label">Nome</label>
+            <input type="text" id="f-nome" class="form-control" placeholder="Insira o seu nome" required>
+        </div>
+        <!-- <div class="">
+            <label for="f-sobrenome" class="form-label">Sobrenome</label>
+            <input type="text" id="f-sobrenome" class="form-control" placeholder="Insira o seu sobrenome" required>
+        </div> -->
         <div class="">
             <label for="f-email" class="form-label">Email</label>
-            <input type="email" id="f-email" class="form-control" placeholder="Digite seu email" required>
+            <input type="email" id="f-email" class="form-control" placeholder="Insira seu email" required>
         </div>
         <div class=" ">
-            <label for="f-senha" class="form-label">Senha</label>
-            <input type="text"  id="f-senha" class="form-control" placeholder="Digite sua senha">
-            <a href="#">Esqueceu a senha?</a>
+            <label for="f-assunto-msg" class="form-label">Assunto da sua mensagem</label>
+            <input type="text"  id="f-assunto-msg" class="form-control" placeholder="Digite o assunto da sua mensagem">
         </div>
-        <input type="submit" value="Entrar" class="btn btn-primary">
+        <div class=" ">
+            <label for="f-msg" class="form-label">Mensagem</label>
+            <input type="text"  id="f-msg" class="form-control" placeholder="Digite a sua mensagem">
+        </div>
+        <input type="submit" value="Enviar" class="btn btn-primary">
       </div>
     </form>
-    <p class="text-center">Ainda não tem uma conta? <a href="cadastrar.html">Cadastrar</a></p>
   </main>
   <footer class="container-fluid">
     <!--  justify-content-md-between -->

@@ -10,7 +10,7 @@
 }
 
 :root {
-  --cor1: rgb(125, 183, 250);
+  --cor1: #7db7fa;
   --cor2: ;
   --cor3: ;
   --bg-color1: rgb(255, 255, 255);
@@ -65,11 +65,14 @@ header #menu {
   /* border-bottom: 3px solid var(--cor1); */
 }
 
+#subheader {
+}
 
 /* main */
 main {
-  /* margem pro menu fixo */
-  margin: 12vh auto;
+  /* margem pro menu fixo 
+  margin: 12vh auto;*/
+  margin-bottom: 12vh;
 }
 
 main a {
@@ -87,10 +90,10 @@ main a:hover {
   margin: .5em auto;
 }
 
-
 /* entrar e cadastrar */
 #campo-cadastrar,
-#campo-entrar {
+#campo-entrar,
+#campo-contato {
   height: fit-content;
   max-width: 600px;
   border-radius: 1.5em;
@@ -104,13 +107,15 @@ main a:hover {
 }
 
 #campo-cadastrar .form-control,
-#campo-entrar .form-control{
+#campo-entrar .form-control,
+#campo-contato .form-control {
   border-radius: 1em;
   padding: .8em;
 }
 
 #campo-cadastrar .btn,
-#campo-entrar .btn {
+#campo-entrar .btn,
+#campo-contato .btn {
   border-radius: 1em;
   padding: .6em;
 }
