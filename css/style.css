@@ -296,7 +296,7 @@ footer .footer-logo p {
 }
 
 footer .logo {
-  max-height: 3.5em;
+  max-height: 3.2em;
 }
 
 footer a, footer i {
@@ -327,16 +327,23 @@ footer .bi-heart-fill:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
+  /* padding: 0; */
   font-family: 'Rubik', sans-serif;
+
+  flex-wrap: wrap;
+  /* margin:  0 5%; */
 }
 
 .menu_bar ul{
   list-style: none;
   display: flex;
+
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .menu_bar ul li{
+  max-height: 60px;
   padding: 25px 30px;
 }
 
@@ -351,7 +358,6 @@ footer .bi-heart-fill:hover {
   color: rgb(60, 60, 60);
 }
 
-
 .banner{
   height: 90vh;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/banner-home.jpeg");
@@ -359,13 +365,12 @@ footer .bi-heart-fill:hover {
   background-repeat: no-repeat;
   background-size: cover;
 
-
   display: flex;
   align-items: center;
   justify-content: bottom;
 }
 
-.banner h1{
+.banner h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 50px;
   color: white;
@@ -374,20 +379,28 @@ footer .bi-heart-fill:hover {
   top: 65%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) }
+  transform: translate(-50%, -50%);
+  padding: .7em;
+}
 
-  .subtitulo h2{
-    font-family: 'Rubik', sans-serif;
-  }
+.subtitulo h2{
+  font-family: 'Rubik', sans-serif;
+}
 
-  .card-title{
-    font-family: 'Rubik', sans-serif;
-  }
+.pg-home col {
+  width: 100%;
+  padding: 0em !important; 
+  margin: 0em !important;
+}
 
-  .card-text{
-    font-family:'Rubik', sans-serif;
-  }
-    
+.pg-home .card {
+  min-width: 15em;
+  max-width: 90%;
+  padding: 0;
+  margin: auto; 
+} 
 
-
-
+.pg-home .card-title,
+.pg-home .card-text {
+  font-family: 'Rubik', sans-serif;
+}
