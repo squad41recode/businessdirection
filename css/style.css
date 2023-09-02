@@ -320,15 +320,15 @@ footer .bi-heart-fill:hover {
 }
 
 
-
 .menu_bar{
-  background-color: black;
-  height: 80px;
+  background-color: white;
+  height: 65px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
+  font-family: 'Rubik', sans-serif;
 }
 
 .menu_bar ul{
@@ -337,7 +337,7 @@ footer .bi-heart-fill:hover {
 }
 
 .menu_bar ul li{
-  padding: 10px 30px;
+  padding: 25px 30px;
 }
 
 .menu_bar ul li a:hover{
@@ -348,7 +348,7 @@ footer .bi-heart-fill:hover {
 }
 
 .menu_bar ul li a{
-  color: white;
+  color: rgb(60, 60, 60);
 }
 
 
@@ -359,14 +359,15 @@ footer .bi-heart-fill:hover {
   background-repeat: no-repeat;
   background-size: cover;
 
+
   display: flex;
   align-items: center;
   justify-content: bottom;
 }
 
 .banner h1{
-  font-family: 'Cambria';
-  font-size: 60px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
   color: white;
   margin: 0;
   position: absolute;
@@ -374,6 +375,18 @@ footer .bi-heart-fill:hover {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%) }
+
+  .subtitulo h2{
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .card-title{
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .card-text{
+    font-family:'Rubik', sans-serif;
+  }
     
 
 
