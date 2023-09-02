@@ -8,18 +8,18 @@
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- folha geral -->
+    <link rel="stylesheet" href="/css/ferramentas.css">
     <link rel="stylesheet" href="/css/style.css">
-    <!-- favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Contato - Business Direction</title>
+    <title>Ferramentas</title>
 </head>
-<body>
+<body class="pg-ferramentas">
   <header class=" ">
-    <nav class="navbar navbar-expand-md px-md-1   " id="menu">
+    <nav class="navbar navbar-expand-md px-md-1" id="menu">
       <div class="container-fluid ">
         <!-- logo fixed-top-->
         <a class="navbar-brand me-auto" href="#">
-          <img src="/img/logo-fundos-brancos.png" alt="logo" class="logo" ></a>
+          <img src="/img/logo-fundos-brancos.png" alt="logo" class="logo">
+        </a>
         <!-- btn menu telas pequenas -->
         <button class="btn d-md-none justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" id="offcanvas-btn">
           <span class="navbar-toggler-icon"></span>
@@ -41,13 +41,13 @@
                   <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/pages/ferramentas.html">Ferramentas</a>
+                  <a class="nav-link active" aria-current="page" href="Ferramentas.html">Ferramentas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/pages/sobre.html">Sobre Nós</a>
+                  <a class="nav-link" href="sobre.html">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#" aria-current="page">Contato</a>
+                  <a class="nav-link" href="contato.html">Contato</a>
                 </li>
             </ul>
             <!-- btn entrar -->
@@ -59,53 +59,40 @@
         </div>
       </div>
     </nav>
-  </header>
-  <main>
-    <!-- formulário criar conta -->
-    <form class="container-fluid row mx-auto my-4 my-md-5">
-      <div class="col-12 col-md-6 text-center my-auto">
-        <div class="d-none d-md-block" >
-          <h1>Fale Conosco</h1>
-          <p>Preencha os campos para nos enviar a sua mensagem.</p>
-        </div>
-        <img src="/img/mobile-marketing-animate.svg" class="login-img d-none d-md-block " alt="img">
-      </div>
-      <div class=" col-12 col-md-6 row g-3 m-auto my-auto" id="campo-contato">
-
-        <div class="d-md-none text-center mx-auto">
-            <img src="/img/mobile-marketing-animate.svg" alt="logo" id="logo-sm">
-            <h1>Fale Conosco</h1>
-            <p>Preencha os campos abaixo para nos enviar a sua mensagem.</p>
-        </div>
-
-        <div class="">
-            <label for="f-nome" class="form-label">Nome</label>
-            <input type="text" id="f-nome" class="form-control" placeholder="Insira o seu nome" required>
-        </div>
-        <!-- <div class="">
-            <label for="f-sobrenome" class="form-label">Sobrenome</label>
-            <input type="text" id="f-sobrenome" class="form-control" placeholder="Insira o seu sobrenome" required>
-        </div> -->
-        <div class="">
-            <label for="f-email" class="form-label">Email</label>
-            <input type="email" id="f-email" class="form-control" placeholder="Insira seu email" required>
-        </div>
+</header> 
+      <main class="container">
         <div class=" ">
-            <label for="f-assunto-msg" class="form-label">Assunto da sua mensagem</label>
-            <input type="text"  id="f-assunto-msg" class="form-control" placeholder="Digite o assunto da sua mensagem">
+          <!-- flex-column flex-sm-row justify-content-center  align-items-center -->
+          <ul class="row d-nav list-unstyled justify-content-center align-items-center gap-3">
+            <!-- d-nav list-unstyled d-flex flex-wrap gap-4 justify-content-center  -->
+            <li class="col-12 col-md-6 col-lg-3 w-auto">
+                <a href="#" class="btn btn-primary">Simulador de empréstimo</a>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3 w-auto">
+                <a href="#" class="btn btn-primary">Gestão financeira</a>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3 w-auto">
+                <a href="#" class="btn btn-primary">Gestão de estoque</a>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3 w-auto">
+              <a href="#" class="btn btn-primary">Gestão de pessoas</a>
+          </li>
+        </ul>
         </div>
-        <div class=" ">
-            <label for="f-msg" class="form-label">Mensagem</label>
-            <input type="text"  id="f-msg" class="form-control" placeholder="Digite a sua mensagem">
-        </div>
-        <input type="submit" value="Enviar" class="btn btn-primary">
-      </div>
-    </form>
-  </main>
+        <section>
+          <h3>Nossos softwares</h3>
+          <p>Lorem ipsum dolor sit amet. Qui autem temporibus ut rerum quaerat At deleniti nemo sed dicta inventore. Aut illo illo sed illum quia quo magnam illum. Vel tenetur iusto ut voluptatem molestiae vel voluptas obcaecati est fugit quisquam est asperiores autem ut tempora sint hic autem sequi. Est cumque delectus qui odit quae eos necessitatibus sint qui velit officiis et dolorem ipsum ut omnis eius. Ut officia fugiat aut dolores nemo qui iste velit. Id ducimus internos hic commodi amet ab officiis iste id omnis rerum sit dolorem debitis aut molestias nulla! Et repellendus illo et galisum quibusdam qui dolore ipsam et temporibus sunt est sunt nisi. Sed quidem quibusdam eum galisum quasi et omnis repellat.
+          </p>
+        </section>
+        <section>
+          <h3>Nossas Planilhas</h3>
+          <p>Lorem ipsum dolor sit amet. Qui autem temporibus ut rerum quaerat At deleniti nemo sed dicta inventore. Aut illo illo sed illum quia quo magnam illum. Vel tenetur iusto ut voluptatem molestiae vel voluptas obcaecati est fugit quisquam est asperiores autem ut tempora sint hic autem sequi. Est cumque delectus qui odit quae eos necessitatibus sint qui velit officiis et dolorem ipsum ut omnis eius. Ut officia fugiat aut dolores nemo qui iste velit. Id ducimus internos hic commodi amet ab officiis iste id omnis rerum sit dolorem debitis aut molestias nulla! Et repellendus illo et galisum quibusdam qui dolore ipsam et temporibus sunt est sunt nisi. Sed quidem quibusdam eum galisum quasi et omnis repellat.
+          </p>
+        </section>
+      </main>
   <footer class="container-fluid">
     <!--  justify-content-md-between -->
     <div class="row">
-      <!-- d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top -->
       <div class="footer-logo col-12 col-md-6 mb-3">
         <img src="/img/logo-fundos-brancos.png" alt="logo" class="logo">
         <p>Apoio especializado para o sucesso de pequenos negócios</p>
@@ -131,9 +118,8 @@
           </li>
         </ul>
       </div>
-
-
     </div>
+
     <div class="d-flex flex-column flex-sm-row justify-content-between py-3  border-top align-items-center">
       <p>&copy; 2023 Business Direction. Todos os direitos reservados.</p>
       <ul class="social-media list-unstyled d-flex">
@@ -157,7 +143,8 @@
       </p>
       <ul class=" list-unstyled d-flex">
         <li class="ms-3">
-          <a href="https://github.com/bia-berenguel" target="_blank" class="nav-link p-0 text-body-secondary">Beatriz</a>
+          <a href="https://github.com/bia-berenguel" target="_blank" class="nav-link p-0 text-body-secondary">Beatriz
+          </a>
         </li>
         <li class="ms-3 ">
           <a href="https://github.com/CamomilaCosta" target="_blank" class="nav-link p-0 text-body-secondary">Camila</a>
@@ -175,8 +162,13 @@
     </div>
 
     <a href="https://storyset.com/" target="_blank">Illustrations by Storyset</a>
-  </footer>
+    <div class="footer">
+      <a href="https://github.com/squad41recode" target="_blank" rel="noopener noreferrer">
+        <img src="/img/github.svg"></img>
+        <p>Github</p>
+      </a>
+    </div>
+  </footer>  
 </body>
-<!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
