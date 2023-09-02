@@ -39,11 +39,8 @@
 .pg-ferramentas main {
   text-align: justify;
   line-height: 1.5;
+  padding: 0px 20px;
   margin: 2em auto;
-}
-
-.pg-ferramentas .container {
-  padding: 0px 50px;
 }
 
 .pg-ferramentas .footer img {
